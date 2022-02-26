@@ -1,9 +1,6 @@
 package com.hackerrank;
 
-import com.hackerrank.week1.BreakingTheRecords;
-import com.hackerrank.week1.DivisibleSumPairs;
-import com.hackerrank.week1.SparseArrays;
-import com.hackerrank.week1.TimeConversion;
+import com.hackerrank.week1.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,8 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // week1 - Mini-Max Sum
+        List<Integer> arr = Arrays.asList(7,69,2,221,8974);
+        MiniMaxSum.miniMaxSum(arr);
+
         // week1 - Divisible Sum Pairs
-        String result = TimeConversion.timeConversion_v2("07:05:45PM");
+//        String result = TimeConversion.timeConversion("07:05:45PM");
 
         // week1 - Divisible Sum Pairs
 //        List<Integer> ar = Arrays.asList(1, 3, 2, 6, 1, 2);
