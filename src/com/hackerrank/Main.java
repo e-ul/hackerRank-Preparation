@@ -2,17 +2,31 @@ package com.hackerrank;
 
 import com.hackerrank.week1.*;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        String inputText = "";
+        while((inputText = bufferedReader.readLine()) != null)
+        {
+            CamelCase4.camelCase(inputText);
+        }
+
+        // week1 - Plus Minus
+//        List<Integer> arr = Arrays.asList(-4, 3, -9, 0, 4, 1);
+//        PlusMinus.plusMinus(arr);
 
         // week1 - Mini-Max Sum
-        List<Integer> arr = Arrays.asList(7,69,2,221,8974);
-        MiniMaxSum.miniMaxSum(arr);
+//        List<Integer> arr = Arrays.asList(7,69,2,221,8974);
+//        MiniMaxSum.miniMaxSum(arr);
 
         // week1 - Divisible Sum Pairs
 //        String result = TimeConversion.timeConversion("07:05:45PM");
