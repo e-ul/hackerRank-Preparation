@@ -1,10 +1,9 @@
 package com.hackerrank;
 
-import com.hackerrank.week1.*;
+import com.hackerrank.mockTest.FizzBuzz;
+import com.hackerrank.week2.LonelyInteger;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
@@ -13,12 +12,20 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        String inputText = "";
-        while((inputText = bufferedReader.readLine()) != null)
-        {
-            CamelCase4.camelCase(inputText);
-        }
+        // week2 - Lonely Integer
+        List<Integer> a = Arrays.asList(1,2,3,4,3,2,1);
+        int result = LonelyInteger.lonelyInteger_v2(a);
+
+        // mockTest - sample test
+//        FizzBuzz.fizzBuzz(15);
+
+        // week1 - Camel Case 4
+//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+//        String inputText = "";
+//        while((inputText = bufferedReader.readLine()) != null)
+//        {
+//            CamelCase4.camelCase(inputText);
+//        }
 
         // week1 - Plus Minus
 //        List<Integer> arr = Arrays.asList(-4, 3, -9, 0, 4, 1);
