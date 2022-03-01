@@ -1,6 +1,8 @@
 package com.hackerrank;
 
 import com.hackerrank.mockTest.FizzBuzz;
+import com.hackerrank.week2.FlippingBits;
+import com.hackerrank.week2.GradingStudents;
 import com.hackerrank.week2.LonelyInteger;
 
 import java.io.IOException;
@@ -12,9 +14,16 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        // week2 - Flipping Bits
+        long result = FlippingBits.flippingBits_v2(2147483647);
+
+        // week2 - Grading Students
+//        List<Integer> grades = Arrays.asList(4,73,67,38,33);
+//        List<Integer> result = GradingStudents.gradingStudents(grades);
+
         // week2 - Lonely Integer
-        List<Integer> a = Arrays.asList(1,2,3,4,3,2,1);
-        int result = LonelyInteger.lonelyInteger_v2(a);
+//        List<Integer> a = Arrays.asList(1,2,3,4,3,2,1);
+//        int result = LonelyInteger.lonelyInteger_v2(a);
 
         // mockTest - sample test
 //        FizzBuzz.fizzBuzz(15);
