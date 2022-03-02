@@ -1,6 +1,7 @@
 package com.hackerrank;
 
 import com.hackerrank.mockTest.FizzBuzz;
+import com.hackerrank.week2.DiagonalDifference;
 import com.hackerrank.week2.FlippingBits;
 import com.hackerrank.week2.GradingStudents;
 import com.hackerrank.week2.LonelyInteger;
@@ -14,8 +15,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        List<List<Integer>> arr = Arrays.asList(Arrays.asList(11,2,4),
+                Arrays.asList(4,5,6),
+                Arrays.asList(10,8,-12));
+        int result = DiagonalDifference.diagonalDifference(arr);
+
         // week2 - Flipping Bits
-        long result = FlippingBits.flippingBits_v2(2147483647);
+//        long result = FlippingBits.flippingBits_v2(2147483647);
 
         // week2 - Grading Students
 //        List<Integer> grades = Arrays.asList(4,73,67,38,33);
